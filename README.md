@@ -16,13 +16,16 @@ There are 3 main tables in our datasets:
 1. flights
 Store time specific data for each flight from 2009 to 2018, such as departure time, arrival time, flight time, etc. Data comes from Kaggle.
 The original data size is 61,556,964 rows and about 7GB, the data is stored separately by year. For example, flights_2009, flight_2010.
+
 Link: https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018?select=2018.csv
 
 2. airports
 Store all airport information in the United States, such as geographic information, airport code, etc. Data comes from Kaggle.
+
 Link: https://www.kaggle.com/datasets/usdot/flight-delays?select=airports.csv
 
 
 3. airlines
 Store all airlines information for flights datasets, such as geographic information, airport code, etc. Table are created by our team and data are comes from airlinecodes.info
+
 Link: https://airlinecodes.info/
